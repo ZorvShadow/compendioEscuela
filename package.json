@@ -13,7 +13,7 @@
 		"generate-assets": "pwa-assets-generator --preset minimal static/sillymillyicon_og.png"
 	},
 	"devDependencies": {
-		"@iconify-json/fluent": "^1.1.24",
+		"@iconify-json/fluent": "^1.1.26",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-cloudflare": "^2.3.0",
 		"@sveltejs/kit": "^1.20.5",

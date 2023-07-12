@@ -15,13 +15,13 @@ devDependencies:
     version: 1.1.24
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
-    version: 2.1.0(@sveltejs/kit@1.20.5)
+    version: 2.1.0(@sveltejs/kit@1.22.2)
   '@sveltejs/adapter-cloudflare':
     specifier: ^2.3.0
-    version: 2.3.0(@sveltejs/kit@1.20.5)
+    version: 2.3.0(@sveltejs/kit@1.22.2)
   '@sveltejs/kit':
-    specifier: ^1.20.5
-    version: 1.20.5(svelte@4.0.0)(vite@4.3.9)
+    specifier: ^1.22.2
+    version: 1.22.2(svelte@4.0.0)(vite@4.3.9)
   '@tailwindcss/typography':
     specifier: ^0.5.9
     version: 0.5.9(tailwindcss@3.3.2)
@@ -39,7 +39,7 @@ devDependencies:
     version: 0.0.3
   '@vite-pwa/sveltekit':
     specifier: ^0.2.5
-    version: 0.2.5(@sveltejs/kit@1.20.5)(vite-plugin-pwa@0.16.4)
+    version: 0.2.5(@sveltejs/kit@1.22.2)(vite-plugin-pwa@0.16.4)
   autoprefixer:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.24)
@@ -1761,28 +1761,28 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: true
 
-  /@sveltejs/adapter-auto@2.1.0(@sveltejs/kit@1.20.5):
+  /@sveltejs/adapter-auto@2.1.0(@sveltejs/kit@1.22.2):
     resolution: {integrity: sha512-o2pZCfATFtA/Gw/BB0Xm7k4EYaekXxaPGER3xGSY3FvzFJGTlJlZjBseaXwYSM94lZ0HniOjTokN3cWaLX6fow==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
-      '@sveltejs/kit': 1.20.5(svelte@4.0.0)(vite@4.3.9)
+      '@sveltejs/kit': 1.22.2(svelte@4.0.0)(vite@4.3.9)
       import-meta-resolve: 3.0.0
     dev: true
 
-  /@sveltejs/adapter-cloudflare@2.3.0(@sveltejs/kit@1.20.5):
+  /@sveltejs/adapter-cloudflare@2.3.0(@sveltejs/kit@1.22.2):
     resolution: {integrity: sha512-4rUtQG1rfenLh3V+w8DSfmtv/l3pGBdxjvJ68oAVX7Lpm2yHUaKPmPVOA7EuQiP0BOB/TSZVmIF8c5SnTlrYXQ==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
       '@cloudflare/workers-types': 4.20230518.0
-      '@sveltejs/kit': 1.20.5(svelte@4.0.0)(vite@4.3.9)
+      '@sveltejs/kit': 1.22.2(svelte@4.0.0)(vite@4.3.9)
       esbuild: 0.17.19
       worktop: 0.8.0-next.15
     dev: true
 
-  /@sveltejs/kit@1.20.5(svelte@4.0.0)(vite@4.3.9):
-    resolution: {integrity: sha512-8rJYZ2boRlO75lwpbpB+DlSzIwmTuamXTpVlDtw4dBk86o3UaDe/+Ro4xCsV/4FtTw2U8xPHyV83edAWbQHG0w==}
+  /@sveltejs/kit@1.22.2(svelte@4.0.0)(vite@4.3.9):
+    resolution: {integrity: sha512-T6GY5jSfQgoDnNPNqAuDi9IK+ZW0TspzTV16UAN6GTsxbri67DGVIbw7QOXPg8FMrZQMmda1AtAxPMfXbOqCgw==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
@@ -2083,14 +2083,14 @@ packages:
       unconfig: 0.3.9
     dev: true
 
-  /@vite-pwa/sveltekit@0.2.5(@sveltejs/kit@1.20.5)(vite-plugin-pwa@0.16.4):
+  /@vite-pwa/sveltekit@0.2.5(@sveltejs/kit@1.22.2)(vite-plugin-pwa@0.16.4):
     resolution: {integrity: sha512-cBPxnIpMbGZi68OadC/16OsIhMUdEGooQjlgl/Q39ZcumdGecb+j7LEXe2twCSASGefNN+/K48VZi3W/Rc248Q==}
     engines: {node: '>=16.14'}
     peerDependencies:
       '@sveltejs/kit': ^1.3.1
       vite-plugin-pwa: '>=0.16.3 <1'
     dependencies:
-      '@sveltejs/kit': 1.20.5(svelte@4.0.0)(vite@4.3.9)
+      '@sveltejs/kit': 1.22.2(svelte@4.0.0)(vite@4.3.9)
       vite-plugin-pwa: 0.16.4(vite@4.3.9)(workbox-build@7.0.0)(workbox-window@7.0.0)
     dev: true
 
